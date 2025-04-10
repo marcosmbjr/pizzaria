@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root{
-    --cor-primaria:#E5F4FF;
-    --cor-secundaria:#1298F8;
+    --cor-primaria:#F6ECD1;
+    --cor-secundaria:#FC9A1B;
     --cor-action:#48D05F;
 }
 
 /* HEADER */
 .header {
     width:100vw; 
-    height: 20vh;/*136px;*/
+    height: 20vh;
     background-color: var(--cor-primaria);
     display:flex;  
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.header__logo {
+    width: 15vh; 
+    height: auto;
+    border-radius: 60px;
 }
 
 .header__title{
